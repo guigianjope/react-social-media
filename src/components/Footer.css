@@ -1,3 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 .footer {
-    background-color: yellow;
+    color: black;
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid gray;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.col {
+    padding: 15px 5em;
+}
+
+h4 {
+    margin: 5px 0;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: orangered;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 840px){
+    .col {
+        padding: 15px 2em;
+    }
 }
