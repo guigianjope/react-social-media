@@ -8,7 +8,7 @@
     flex-direction: row;
     align-items: center;
     padding: 1rem;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid gray;
     z-index: 999;
     background: white;
 }   

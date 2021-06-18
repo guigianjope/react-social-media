@@ -11,7 +11,7 @@
     background: white;
     bottom: 0;
     width: 100%;
-    border-top: 2px solid gold;
+    border-top: 2px solid gray;
 }
 
 .row {
@@ -27,7 +27,6 @@
 
 h4 {
     margin: 5px 0;
-    color: gold;
 }
 
 .link:hover {
