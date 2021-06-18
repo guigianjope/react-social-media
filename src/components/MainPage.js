@@ -20,17 +20,3 @@ export default class MainPage extends React.Component {
       );
     }
   }
-
-/* export default class MainPage extends React.Component {
-    render() {
-        return (
-          <Consumer>
-            {(value) => (
-              <div>
-                  {value.title}
-              </div>
-            )}
-          </Consumer>
-        );
-    }
-} */

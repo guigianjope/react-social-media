@@ -8,7 +8,7 @@
     flex-direction: row;
     align-items: center;
     padding: 1rem;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid gold;
     z-index: 999;
     background: white;
 }   
@@ -47,7 +47,7 @@ input {
     outline: none;
     cursor: pointer;
     background: gold;
-    color: #fff;
+    color: black;
     left: -5px;
 }
 
