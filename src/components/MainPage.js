@@ -10,7 +10,7 @@ export default class MainPage extends React.Component {
             <div className="main-page">
               {value.images.map((image, index) => (
                 <div className="card" key={index}>            
-                  <img src={image.url} alt="something"/>
+                  <a href="/Details"><img src={image.url} alt="something"/></a>
                   <p>{image.title}</p>
                 </div>
               ))}

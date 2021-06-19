@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className="logo">
-                <img src={logo} alt="logo" />
+                <a href="/"><img src={logo} alt="logo" /></a>
             </div>
             
             <div className="search-box">
