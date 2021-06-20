@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 
 const Context = React.createContext(); // Initializing Context Instance
 
-export class Provider extends React.Component {
+export class Provider extends Component {
   state = {
     // This is the state that we wanna share between Components
     images: []
@@ -22,6 +22,21 @@ export class Provider extends React.Component {
           console.log(`this is a error ${erro}`);
         });
     });
+    /* .then(res => {
+      if(res.status !== 200) {
+        console.log("ERRO");
+      }
+      return res.json();
+    })
+    .then(res => {
+      let imageData = {
+        id: res.id,
+        title: res.title,
+        url: res.url
+      }
+      this.setState({images: imageData})
+    })
+  } */
   }
 
   render() {

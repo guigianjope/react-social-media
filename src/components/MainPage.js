@@ -1,8 +1,8 @@
 import "./MainPage.css"
-import React from "react";
+import React, { Component } from "react";
 import { Consumer } from "../Context"; // Import Provider from Context.js
 
-export default class MainPage extends React.Component {
+export default class MainPage extends Component {
     render() {
       return (
         <Consumer>
@@ -10,7 +10,7 @@ export default class MainPage extends React.Component {
             <div className="main-page">
               {value.images.map((image, index) => (
                 <div className="card" key={index}>            
-                  <a href="/Details"><img src={image.url} alt="something"/></a>
+                  <a href="/Details"/* {`/Details/${image.id}`} */><img src={image.url} alt="something"/></a>
                   <p>{image.title}</p>
                 </div>
               ))}

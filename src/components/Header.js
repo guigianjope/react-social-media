@@ -1,6 +1,7 @@
 import "./Header.css"
 import logo from "../assets/logo.png";
 import profile from "../assets/profile.png";
+/* import searchIcon from "../assets/search-icon.svg" */
 
 export default function Header() {
     return (
@@ -11,8 +12,8 @@ export default function Header() {
             
             <div className="search-box">
                 <form>
-                    <input className="input-text" type="text" placeholder="Search..."/>
-                    <input className="input-submit" type="submit" value="Search"/>
+                    <input className="input-text" type="text" placeholder="Search..." />                    
+                    <input className="input-submit" type="submit" value="Search" />
                 </form>
             </div>
             <div className="profile-container">
