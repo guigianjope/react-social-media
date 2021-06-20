@@ -11,8 +11,8 @@ export default class MainPage extends Component {
             <div className="main-page">
               {value.images.map((image, index) => (
                 <div className="card" key={index}>            
-                  <Link to={`/Details/${image.id}`}><img src={image.url} alt="something"/></Link>
-                  <p>{image.title}</p>
+                  <Link to={`/Details/${image.id}`}><img className="card-image" src={image.url} alt="something"/></Link>
+                  <p className="card-title">{image.title}</p>
                 </div>
               ))}
             </div>

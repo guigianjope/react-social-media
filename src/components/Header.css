@@ -26,12 +26,13 @@ input {
     font-size: 20px;
     box-sizing: border-box;
     transition: .5s;
+    font-family: 'Roboto Slab', serif;
 }
 
 .input-text {
     background: rgb(243, 227, 137);
     width: 340px;
-    height: 50px;
+    height: 40px;
     border: none;
     outline: none;
     padding: 0 25px;
@@ -41,7 +42,7 @@ input {
 
 .input-submit {
     border-radius: 0 25px 25px 0;
-    height: 50px;
+    height: 40px;
     width: 150px;
     border: none;
     outline: none;

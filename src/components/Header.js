@@ -2,7 +2,6 @@ import "./Header.css"
 import logo from "../assets/logo.png";
 import profile from "../assets/profile.png";
 import {Link} from 'react-router-dom'
-/* import searchIcon from "../assets/search-icon.svg" */
 
 export default function Header() {
     return (
