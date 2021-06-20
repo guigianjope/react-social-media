@@ -14,8 +14,21 @@
     margin: 15px;
     display: block;
 }
+.card-title {
+    background-color: rgba(161, 153, 153, 0.5);
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 8%;
+    left: 15px;
+    max-width: 90%;
+    opacity: 0;
+    transition: 0.8s all ease-in-out;
+}
 
-.card img {
+.card-image {
+    transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
     left: 0;
@@ -27,4 +40,8 @@
 
 .card:hover {
     transform: scale(1.1);
+}
+
+.card:hover .card-title {
+    opacity: 1;
 }
