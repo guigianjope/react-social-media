@@ -73,3 +73,9 @@ input {
     color: black;
     left: -5px;
 }
+
+.comment-user {
+    margin: 10px auto;
+    font-size: large;
+    font-weight: bolder;
+}

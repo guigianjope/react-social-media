@@ -56,9 +56,21 @@ export class ImageDetail extends Component {
                                             <input className="comment-area" type="text" placeholder="Add a comment..." />
                                             <input className="btn" type="submit" value="Publish" />
                                         </form>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a ligula nibh. Vivamus faucibus bibendum ante eu elementum. Morbi ac arcu scelerisque, volutpat ipsum non, molestie velit. Curabitur at suscipit libero. In pretium lobortis mi at eleifend. Cras molestie tellus urna, a ullamcorper ligula ultricies non. Nam consequat mi sed est aliquam dictum. Vestibulum eu erat quis ligula placerat maximus. Aliquam a pretium turpis, vel aliquet nisl.
-                                    </div>
-                                    
+                                        <div className="image-comments">                                        
+                                            <div className="comment-user">
+                                            Lorem ipsum dolor sit amet   
+                                            </div>
+                                            <div className="comment-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a ligula nibh. Vivamus faucibus bibendum ante eu elementum. Morbi ac arcu scelerisque, volutpat ipsum non, molestie velit. Curabitur at suscipit libero. In pretium lobortis mi at eleifend. Cras molestie tellus urna, a ullamcorper ligula ultricies non. Nam consequat mi sed est aliquam dictum. Vestibulum eu erat quis ligula placerat maximus. Aliquam a pretium turpis, vel aliquet nisl.
+                                            </div>
+                                            <div className="comment-user">
+                                            Lorem ipsum dolor sit amet   
+                                            </div>
+                                            <div className="comment-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a ligula nibh. Vivamus faucibus bibendum ante eu elementum. Morbi ac arcu scelerisque, volutpat ipsum non, molestie velit. Curabitur at suscipit libero. In pretium lobortis mi at eleifend. Cras molestie tellus urna, a ullamcorper ligula ultricies non. Nam consequat mi sed est aliquam dictum. Vestibulum eu erat quis ligula placerat maximus. Aliquam a pretium turpis, vel aliquet nisl.
+                                            </div>
+                                        </div>
+                                    </div>                                    
                                 </div>                                     
                             </div>                        
                         </div>
