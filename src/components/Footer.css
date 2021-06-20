@@ -6,12 +6,17 @@
 }
 
 .footer {
-    position: relative;;
+    position: relative;
     color: black;
     background: white;
     bottom: 0;
     width: 100%;
     border-top: 2px solid gray;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
 }
 
 .row {

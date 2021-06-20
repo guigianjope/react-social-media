@@ -22,21 +22,6 @@ export class Provider extends Component {
           console.log(`this is a error ${erro}`);
         });
     });
-    /* .then(res => {
-      if(res.status !== 200) {
-        console.log("ERRO");
-      }
-      return res.json();
-    })
-    .then(res => {
-      let imageData = {
-        id: res.id,
-        title: res.title,
-        url: res.url
-      }
-      this.setState({images: imageData})
-    })
-  } */
   }
 
   render() {

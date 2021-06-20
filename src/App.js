@@ -1,25 +1,20 @@
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './assets/App.css';
-import Home from './pages/Home';
-import Details from './pages/Details';
+import Section from './Section';
+/* import Details from './pages/Details'; */
 import { Provider } from './Context';
 
-function App() {
-  const Router = () => {
-    const location = window.location.pathname
-    if(location === '/Details'){
-      return <Details />
-    } else {
-      return <Home />
-    }
+class App extends React.Component {
+  render() {
+    return(
+      <Provider>
+        <Router>
+          <Section />
+        </Router>
+      </Provider>
+    );
   }
-  return (
-    <>
-    <Provider>
-      <Router />
-    </Provider>
-      
-    </>
-  );
 }
 
 export default App;

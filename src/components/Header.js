@@ -1,13 +1,14 @@
 import "./Header.css"
 import logo from "../assets/logo.png";
 import profile from "../assets/profile.png";
+import {Link} from 'react-router-dom'
 /* import searchIcon from "../assets/search-icon.svg" */
 
 export default function Header() {
     return (
         <div className="header">
             <div className="logo">
-                <a href="/"><img src={logo} alt="logo" /></a>
+                <Link to="/"><img src={logo} alt="logo" /></Link>
             </div>
             
             <div className="search-box">
